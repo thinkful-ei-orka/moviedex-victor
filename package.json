@@ -1,0 +1,36 @@
+{
+  "name": "moviedex",
+  "version": "1.0.0",
+  "description": "moviedex assignment",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thinkful-ei-orka/moviedex-victor.git"
+  },
+  "keywords": [
+    "moviedex",
+    "express"
+  ],
+  "author": "victor jarvis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thinkful-ei-orka/moviedex-victor/issues"
+  },
+  "homepage": "https://github.com/thinkful-ei-orka/moviedex-victor#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^3.22.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
